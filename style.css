@@ -10,13 +10,6 @@ h1 {
     margin-bottom: 0px;
 }
 
-pronoun{
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 600px;
-}
-  
   
   p {
     text-align: center;
@@ -36,6 +29,6 @@ pronoun{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 12%;
+    width: 10%;
   }
 
