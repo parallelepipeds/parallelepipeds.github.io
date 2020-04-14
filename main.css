@@ -27,7 +27,6 @@ a {
   color: var(--primary4);
   font-family: 'Nunito Sans', sans-serif;
   text-decoration: none;
-  display: inline-block;
 }
 
 a.intro{
