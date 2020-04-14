@@ -16,7 +16,6 @@ html, body {
   padding: 0;
 
   font-family: 'Nunito Sans', sans-serif;
-  color: var(--neutral1);
 }
 
 body {
@@ -25,28 +24,21 @@ body {
 }
 
 a {
+  color: var(--primary4);
   font-family: 'Nunito Sans', sans-serif;
   text-decoration: none;
   display: inline-block;
 }
 
-a.underline{
-  line-height: 0.7em;
-  color: var(black);
-  border-bottom: 1.5px var(--primary3) solid;
-}
-
-a.work{
-  font-weight: 500;
-  color: var(black);
-}
-
 a.intro{
   font-weight: 700;
   color: var(--primary1);
-
 }
 
+a.underline{
+  line-height: 0.7em;
+  border-bottom: 1.5px var(--primary3) solid;
+}
 
 a:visited {
   color: var(--primary4);
