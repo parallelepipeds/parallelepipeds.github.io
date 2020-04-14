@@ -32,7 +32,7 @@ a {
 
 a.underline{
   line-height: 0.7em;
-  color: var(--primary1);
+  color: var(black);
   border-bottom: 1.5px var(--primary3) solid;
 }
 
