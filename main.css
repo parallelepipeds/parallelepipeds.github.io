@@ -32,14 +32,13 @@ a {
 
 a.underline{
   line-height: 0.7em;
+  color: var(--primary1);
   border-bottom: 1.5px var(--primary3) solid;
 }
 
 a.work{
   font-weight: 500;
   color: var(black);
-  line-height: 0.7em;
-  border-bottom: 1.5px var(--primary3) solid;
 }
 
 a.intro{
@@ -76,5 +75,5 @@ h1 {
 
 ul.a {
   list-style: none;
-  padding-left: 0%;
+  padding-left: 1%;
 }
