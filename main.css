@@ -38,6 +38,8 @@ a.underline{
 a.work{
   font-weight: 500;
   color: var(black);
+  line-height: 0.7em;
+  border-bottom: 1.5px var(--primary3) solid;
 }
 
 a.intro{
@@ -74,5 +76,5 @@ h1 {
 
 ul.a {
   list-style: none;
-  padding-left: 1%;
+  padding-left: 0%;
 }
