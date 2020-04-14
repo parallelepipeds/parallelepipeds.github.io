@@ -41,11 +41,11 @@ a.underline{
 }
 
 a:visited {
-  color: var(--primary4);
+  color: black;
 }
 
 a:hover{
-  color: var(--primary3);
+  color: black;
 }
 
 h1 {
