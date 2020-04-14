@@ -1,0 +1,78 @@
+:root {
+  --primary1: #446586;
+  --primary2: #6b89a7;
+  --primary3: #6b89a7;
+  --primary4: #111111;
+}
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html, body {
+  padding: 0;
+
+  font-family: 'Nunito Sans', sans-serif;
+  color: var(--neutral1);
+}
+
+body {
+  margin: 3% 5%;
+  color: var(--primary4);
+}
+
+a {
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.underline{
+  line-height: 0.7em;
+  border-bottom: 1.5px var(--primary3) solid;
+}
+
+a.work{
+  font-weight: 500;
+  color: var(black);
+}
+
+a.intro{
+  font-weight: 700;
+  color: var(--primary1);
+
+}
+
+
+a:visited {
+  color: var(--primary4);
+}
+
+a:hover{
+  color: var(--primary3);
+}
+
+h1 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 500;
+  font-size: 130%;
+  color: var(--primary3);
+}
+
+.top-bar-container {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.logo {
+  font-size: 150%;
+  border-bottom: 0px;
+}
+
+ul.a {
+  list-style: none;
+  padding-left: 1%;
+}
