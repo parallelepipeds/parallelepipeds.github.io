@@ -1,7 +1,7 @@
 :root {
-  --primary1: #446586;
-  --primary2: #6b89a7;
-  --primary3: #6b89a7;
+  --primary1: #111111;
+  --primary2: #111111;
+  --primary3: #3B459F;
   --primary4: #111111;
 }
 html {
@@ -14,24 +14,25 @@ html {
 
 html, body {
   padding: 0;
-
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Nunito Sans',sans-serif;
+  font-size: 110%;
 }
 
+
 body {
-  margin: 3% 5%;
+  margin: 5% 15% 5% 15%;
   color: var(--primary4);
 }
 
 a {
   color: black;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Nunito Sans',sans-serif;
   text-decoration: none;
 }
 
 a.intro{
-  font-weight: 700;
   color: var(--primary1);
+  text-decoration: underline;
 }
 
 a.underline{
@@ -48,10 +49,17 @@ a:hover{
 }
 
 h1 {
-  font-family: 'Nunito Sans', sans-serif;
-  font-weight: 500;
+  font-family: 'Nunito Sans',sans-serif;
+  font-weight: 1000;
   font-size: 130%;
   color: var(--primary3);
+}
+
+h2 {
+  font-family: 'Nunito Sans',sans-serif;
+  font-weight: 1000;
+  font-size: 130%;
+  color: var(--primary4);
 }
 
 .top-bar-container {
@@ -60,14 +68,13 @@ h1 {
   
 }
 .logo {
-  font-size: 150%;
+  font-size: 130%;
   border-bottom: 0px;
 }
 
 ul.a {
   list-style: none;
-  padding-left: 1%;
+  padding-left: 0%;
 }
 
-li.a { padding: 10px 0px 0px; }
-li:first-child { margin-bottom: 0px; }
+li.a { padding: 3px; }
