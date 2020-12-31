@@ -1,8 +1,7 @@
 :root {
-  --primary1: #111111;
-  --primary2: #111111;
-  --primary3: #3B459F;
-  --primary4: #111111;
+  --black: #111111;
+  --purple: #9771c3;
+  --dark-purple: #4d316e;
 }
 html {
   box-sizing: border-box;
@@ -21,7 +20,7 @@ html, body {
 
 body {
   margin: 5% 15% 5% 15%;
-  color: var(--primary4);
+  color: var(--black);
 }
 
 a {
@@ -31,13 +30,13 @@ a {
 }
 
 a.intro{
-  color: var(--primary1);
+  color: var(--black);
   text-decoration: underline;
 }
 
 a.underline{
   line-height: 0.7em;
-  border-bottom: 1.5px var(--primary3) solid;
+  border-bottom: 1.5px var(--purple) solid;
 }
 
 a:visited {
@@ -45,21 +44,21 @@ a:visited {
 }
 
 a:hover{
-  color: var(--primary3);
+  color: var(--purple);
 }
 
 h1 {
   font-family: 'Nunito Sans',sans-serif;
   font-weight: 1000;
   font-size: 130%;
-  color: var(--primary3);
+  color: var(--dark-purple);
 }
 
 h2 {
   font-family: 'Nunito Sans',sans-serif;
   font-weight: 1000;
   font-size: 130%;
-  color: var(--primary4);
+  color: var(--black);
 }
 
 .top-bar-container {
